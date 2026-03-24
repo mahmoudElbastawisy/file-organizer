@@ -1,14 +1,27 @@
 # File Organizer
 
-A simple Python automation script that organizes files inside a folder by type.
+A simple Python automation project that organizes files inside a target folder by file type.
 
-## What it does
-- Scans a target folder
-- Creates category folders automatically
-- Moves files into the correct folder
-- Handles duplicate file names safely
+## Features
+- Scans a selected folder automatically
+- Creates category folders if they do not already exist
+- Moves files into the correct folder by extension
+- Prevents overwriting by safely renaming duplicate files
 
-## How to run
+## Supported Categories
+- Images
+- PDFs
+- Videos
+- Documents
+- Archives
+- Others
+
+## Tech Stack
+- Python 3
+- pathlib
+- shutil
+
+## How to Run
 1. Open the project folder in terminal
 2. Run:
 
